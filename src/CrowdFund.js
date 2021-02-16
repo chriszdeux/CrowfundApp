@@ -1,9 +1,12 @@
 import React from 'react'
+import { Navbar } from './components/header/Navbar'
+import { Hero } from './components/hero/Hero'
 
 export const CrowdFund = () => {
   return (
     <>
-      <h1>Crowdfund</h1>
+      <Navbar />
+      <Hero />
     </>
   )
 }

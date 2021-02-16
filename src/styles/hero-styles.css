@@ -1,0 +1,82 @@
+#hero {
+  /* display: flex;
+  flex-direction: column;
+  text-align: center; */
+  display: flex;
+  justify-content: center;
+}
+
+.hero--background {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 600px;
+  background-image: url("../utilites/image-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-origin:content-box; */
+  z-index: -1;
+}
+
+.hero__content {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  height: auto;
+  bottom: -140px;
+  padding: 40px 0;
+  background-color: white;
+  /* border: 1px solid var(--light-gray); */
+  box-shadow: 0 0 20px var(--light-gray);
+  border-radius: 10px;
+  text-align: center;
+
+  /* height: 300px; */
+  /* top: 1px; */
+}
+
+.logo--company{
+  position: absolute;
+  /* bottom: 30px; */
+  top: -40px;
+}
+.logo--company img {
+  width: 75px;
+}
+
+.hero__info .hero--title {
+  margin: 20px 0;
+}
+.hero__info .hero--text {
+  /* margin-top: 10px; */
+  margin: 20px 0;
+  font-size: var(--small-font-size);
+  font-weight: var(--regular-font);
+  color: var(--dark-gray);
+}
+
+.hero__support__project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 20px 0; */
+}
+
+.hero__support__project .bookmark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--black-color);
+  border: none;
+  border-radius: 50px;
+}
+
+.bookmark--icon {
+  width: 20px;
+  color: var(--dark-gray);
+  /* height: 70px; */
+}
