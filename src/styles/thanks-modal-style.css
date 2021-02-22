@@ -1,0 +1,25 @@
+#thanks__modal {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.thanks__modal {
+  display: block;
+  /* width: 90%; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+.thanks__modal h2 {
+  font-size: var(--small-font-size);
+  margin: 15px 0;
+}
+
+.thanks__modal p {
+  font-size: var(--very-small-font-size);
+  letter-spacing: 1px;
+  color: var(--light-gray);
+  margin: 15px 0;
+  line-height: 25px;
+}

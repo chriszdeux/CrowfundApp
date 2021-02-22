@@ -1,0 +1,32 @@
+#backed {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.backed__info {
+  /* margin: 50px 0px; */
+  padding: 20px 0;
+}
+
+.backed__info h2 {
+  /* font-size: var(--); */
+}
+
+.backed__info p {
+  font-size: var(--small-font-size);
+  color: var(--light-gray);
+}
+
+.divider {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  height: 5px;
+}
+
+.divider .divider--line {
+  width: 30%;
+  height: 1px;
+  border-bottom: 1px solid var(--light-gray);
+}

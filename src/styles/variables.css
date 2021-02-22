@@ -4,11 +4,13 @@
   --black-color: hsl(0, 0%, 10%);
   --dark-gray: hsl(0, 0%, 48%);
   --light-gray: hsl(0, 0%, 80%);
+  --background-color: hsl(0, 0%, 94%);
 
   --main-font-size: 1.6rem;
+  --very-small-font-size: 1.2rem;
   --small-font-size: 1.4rem;
-  --large-font-size: 1.8rem;
-  --extra-large-font-size: 2rem;
+  --large-font-size: 1.9rem;
+  --extra-large-font-size: 2.1rem;
   --light-font: 400;
   --regular-font: 500;
   --heavy-font: 700

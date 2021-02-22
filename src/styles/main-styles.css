@@ -12,6 +12,7 @@ html {
 }
 
 body {
+  background-color: var(--background-color);
   font-size: 1.6rem;
 }
 
@@ -28,8 +29,31 @@ section {
   width: 90%;
   /* height: auto; */
   margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
 }
 
+
+
+.small__container {
+  /* width: 90%; */
+  height: auto;
+  margin: 0 auto;
+  padding: 25px;
+  /* border-radius: 5px;
+  box-shadow: 0 0 3px var(--light-gray); */
+}
+
+.white--bg {
+  background-color: #fff;
+}
+.shadow--container {
+  box-shadow: 0 0 3px var(--light-gray);
+}
+
+
+/*Is a Button*/
 .support--us {
   width: 230px;
   height: 50px;
@@ -42,3 +66,22 @@ section {
 
 }
 
+.progress__bar {
+  width: 100%;
+  height: 20px;
+  /* border: 1px solid red; */
+  background-color: var(--light-gray);
+  border-radius: 10px;
+}
+
+.progress--done {
+  width: 30%;
+  height: 20px;
+  background-color: var(--light-green-color);
+  border-radius: 10px;
+}
+
+.success--icon {
+  font-size: 6rem;
+  color: var(--light-green-color);
+}
