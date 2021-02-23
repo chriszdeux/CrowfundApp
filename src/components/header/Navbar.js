@@ -2,7 +2,7 @@ import React from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
 // import IoCheckmarkDoneCircleSharp from 'react-icons/io';
 
-// import IoCloseOutline from 'react-icons/io';
+
 import '../../styles/navbar-style.css';
 export const Navbar = () => {
   return (

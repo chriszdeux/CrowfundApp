@@ -13,7 +13,7 @@ export const ThanksModal = () => {
           <p>
             Your pledge bring us one step closer to sharing Mastercraft Bamboo Monitor Riser worldwide. You will get an email once our campaign is completed.
           </p>
-          <button className="support--us">Got it</button>
+          <button className="support--us support--small">Got it</button>
         </div>
       </section>   
   )

@@ -1,9 +1,9 @@
 .about__info p {
   line-height: 24px;
-  letter-spacing: 2px;
+  letter-spacing: 1.35px;
   color: var(--dark-gray);
   font-size: var(--very-small-font-size);
-  margin-bottom: 15px;
+  margin: 20px 0;
 }
 .backed__card {
   margin: 20px 0;
@@ -20,8 +20,10 @@
 }
 
 .backed__card p {
-  font-size: var(--small-font-size);
-  color: var(--light-gray);
+  font-size: var(--very-small-font-size);
+  letter-spacing: 1.7px;
+  line-height: 23px;
+  margin: 22px 0;
 }
 
 .backed__stock {
