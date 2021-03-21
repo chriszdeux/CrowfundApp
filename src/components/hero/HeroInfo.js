@@ -3,7 +3,7 @@ import Icon from '../../utilites/logo-mastercraft.svg';
 export const HeroInfo = () => {
   return (
     <div className="hero__info ">
-      <figure className="logo--company main__container">
+      <figure className="logo--company second__container">
         <img src={ Icon } alt="icon"/>
       </figure>
       <h3 className="hero--title">Mastercraft Bamboo Monitor Riser</h3>

@@ -69,6 +69,18 @@ hr {
   color: #fff;
 
 }
+.out--stock {
+  width: 230px;
+  height: 50px;
+  font-size: var(--main-font-size);
+  font-weight: var(--heavy-font);
+  background-color: var(--dark-gray);
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  opacity: 0.3;
+
+}
 
 .support--small {
   width: 40%;
@@ -104,4 +116,34 @@ hr {
 .success--icon {
   font-size: 6rem;
   color: var(--light-green-color);
+}
+
+.modal {
+  position: absolute;
+  height:   auto;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  /* background-color: var(--dark-gray); */
+  /* text-align: center; */
+  overflow-y: auto;
+  outline-style: none;
+  /* color: white; */
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* background-color: var(--background-color); */
+  /* opacity: 0.5; */
+  z-index: 1;
+}
+
+.opacity--card {
+  opacity: 0.3;
 }

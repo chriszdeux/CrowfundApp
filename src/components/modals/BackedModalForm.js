@@ -8,7 +8,7 @@ export const BackedModalForm = () => {
     <form className="pledge__form">
         
         <label className="radio__container">
-          <input type="radio" checked="" name="radio" />
+          <input type="radio"  name="radio" />
           <span className="checkmark"></span>
           <h3>Pledge with no reward</h3>
         </label>

@@ -1,10 +1,9 @@
 import React from 'react'
 
-export const ProgessBar = () => {
+export const ProgessBar = ({daysLeft}) => {
   return (
     <div className="progress__bar ">
-      <div className="progress--done">
-
+      <div className="progress--done" style={{width: `${daysLeft}%`}}>
       </div>
     </div>
   )

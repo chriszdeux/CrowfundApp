@@ -13,10 +13,15 @@
   box-shadow: 0 0 5px var(--light-gray);
 }
 
+.backed__card h3 {
+  margin: 5px 0px;
+}
+
 .backed__card span {
   font-size: var(--small-font-size);
   font-weight: var(--heavy-font);
   color: var(--light-green-color);
+  /* margin: 15px 0; */
 }
 
 .backed__card p {
@@ -34,4 +39,8 @@
 
 .backed__stock h2 {
   margin-bottom: 20px;
+}
+.backed__stock small {
+  font-size: var(--small-font-size);
+  color: var(--light-gray);
 }

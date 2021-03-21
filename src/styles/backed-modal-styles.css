@@ -2,6 +2,20 @@
 
 }
 
+.pledge__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.pledge__header h2 {
+  font-size: var(--regular-font);
+}
+
+.pledge__header .icon--close {
+  font-size: var(--large-font-size);
+}
+
 .pledge p {
   font-size: var(--very-small-font-size);
     letter-spacing: 1.2px;
